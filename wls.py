@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 from typing import List, Tuple
 from rich import print 
 
+# pip install rich #(local machine) [If you are using your local PC uncomment this to install rich]
+# !pip install rich # Google CoLab [If you are using CoLaB uncomment this]
+
 def generate_data(n: int =1000, 
                   beta: int = np.array([2, -3, 5]),
                   eps: float =1)-> Tuple[np.ndarray, np.ndarray, np.ndarray]:
