@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 from typing import Tuple, List
 from rich import print
 
+# pip install rich #(local machine) [If you are using your local PC uncomment this to install rich]
+# !pip install rich # Google CoLab [If you are using CoLaB uncomment this]
+
 def generate_data_ridge(n: int = 100, 
                         p: int = 3, 
                         beta: np.ndarray = np.array([0.89, 1.5,-3.2]), 
